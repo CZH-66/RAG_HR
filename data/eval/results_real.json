@@ -1,0 +1,182 @@
+[
+  {
+    "question": "my manager still hasn't approved my leave request and it's been days... what happens now?",
+    "question_original": "What happens if my manager doesn't respond to my leave request?",
+    "answer": "If your manager hasn't responded, your request is automatically escalated to the next-level approver after 48 hours. Keep in mind that earned leave requests, especially for longer durations, can take up to 3 business days for approval due to workload planning, while casual and sick leave are typically approved within 24 hours. You'll receive an email and portal notification once your leave is approved or rejected, along with any comments.",
+    "ground_truth": "All leave requests at NovaTech Solutions must be submitted through the HR portal, where they are routed to your direct manager for approval. Casual and sick leave are typically approved within 24 hours, while earned leave requests, especially for longer durations, may take up to 3 business days for approval due to workload planning. If your manager is unavailable, requests are automatically escalated to the next-level approver after 48 hours. You'll receive an email and portal notification once your leave is approved or rejected, along with any comments. Always ensure work handover notes are shared with your team before extended leave to maintain business continuity.",
+    "hit": true,
+    "answer_sim": 0.8863,
+    "answer_passed": true,
+    "top_scores": [
+      0.6542,
+      0.6197,
+      0.6081,
+      0.6039
+    ]
+  },
+  {
+    "question": "so which days do I actually need to be in the office?",
+    "question_original": "Which days am I required to come to the office?",
+    "answer": "You're generally required to be in the office 3 days a week, typically Tuesday, Wednesday, and Thursday, with remote work on the remaining 2 days. However, your specific in-office days may vary by team based on project or client requirements, as decided by your manager. If you need to swap an in-office day for a valid reason, let your manager know in advance.",
+    "ground_truth": "Our hybrid work model requires employees to be in the office 3 days a week (typically Tuesday, Wednesday, and Thursday) and allows remote work on the remaining 2 days. Specific in-office days may vary by team based on project or client requirements, as decided by your manager. Badge-in records at the office are used to confirm hybrid compliance. If you need to swap an in-office day for a valid reason, inform your manager in advance. The hybrid model is reviewed periodically by HR and leadership based on business needs and may be adjusted with prior notice to employees.",
+    "hit": true,
+    "answer_sim": 0.8916,
+    "answer_passed": true,
+    "top_scores": [
+      0.6662,
+      0.642,
+      0.6392,
+      0.6173
+    ]
+  },
+  {
+    "question": "can I wear jeans to work or nah?",
+    "question_original": "Are jeans allowed in the office?",
+    "answer": "Jeans aren't explicitly banned—the dress code is smart-casual on regular working days, and ripped jeans are specifically called out as something to avoid. Fridays are typically casual dress days (though this can vary by team), and on days with client meetings, presentations, or official events, business formal attire is required. To be safe, stick to clean, neat jeans without rips, and check with your manager or HR if you're unsure about a specific day.",
+    "ground_truth": "NovaTech Solutions follows a smart-casual dress code for regular working days, meaning collared shirts, blouses, trousers, and clean casual footwear are appropriate; avoid overly casual items like flip-flops, ripped jeans, or graphic tees with inappropriate content. On days with client meetings, presentations, or official events, business formal attire is required. Fridays are typically casual dress days, though this may vary by team. Regardless of the dress code, all attire should be neat, clean, and professional in appearance. If you're unsure about appropriate dress for a specific event, check with your manager or HR beforehand.",
+    "hit": true,
+    "answer_sim": 0.8277,
+    "answer_passed": true,
+    "top_scores": [
+      0.6498,
+      0.5989,
+      0.5709,
+      0.5561
+    ]
+  },
+  {
+    "question": "when do I actually get paid each month?",
+    "question_original": "Does the pay period start from the 1st of the month?",
+    "answer": "You get paid on the last working day of each month. If that scheduled pay date falls on a weekend or public holiday, your salary is disbursed on the preceding working day.",
+    "ground_truth": "NovaTech Solutions follows a monthly salary cycle, with salaries credited to employees' bank accounts on the last working day of each month. The pay period runs from the 1st to the last day of the calendar month. If the scheduled pay date falls on a weekend or public holiday, salaries are disbursed on the preceding working day. Any changes to your bank account details should be updated in the HR/payroll portal at least 5 working days before the pay date to avoid delays. For payroll-related discrepancies, please raise a ticket with the payroll team within 7 days of receiving your payslip.",
+    "hit": true,
+    "answer_sim": 0.8026,
+    "answer_passed": true,
+    "top_scores": [
+      0.6244,
+      0.6217,
+      0.6209,
+      0.6037
+    ]
+  },
+  {
+    "question": "I've burned through all my paid leave... can I just take some unpaid time off?",
+    "question_original": "Can I take unpaid leave if I've used all my paid leave?",
+    "answer": "Yes, you can request unpaid leave once you've exhausted your casual, sick, and earned leave balances. It's subject to manager and HR approval, and you should submit the request through the HR portal with a clear reason and expected duration—ideally at least 2 weeks in advance for planned circumstances.\n\nA couple of things to keep in mind: unpaid leave exceeding 30 days may affect benefits continuity (such as insurance coverage), and HR will communicate that clearly beforehand. Extended unpaid leave beyond 90 days requires senior leadership approval and may impact your employment status, so it's worth discussing your specific situation with HR to understand all the implications.",
+    "ground_truth": "Unpaid leave may be granted at NovaTech Solutions once an employee has exhausted their casual, sick, and earned leave balances, subject to manager and HR approval. Requests for unpaid leave should be submitted through the HR portal with a clear reason and expected duration, ideally at least 2 weeks in advance for planned circumstances. Unpaid leave exceeding 30 days may affect benefits continuity, such as insurance coverage, and will be communicated clearly by HR beforehand. Extended unpaid leave beyond 90 days requires senior leadership approval and may impact your employment status, so please discuss your specific situation with HR to understand all implications.",
+    "hit": true,
+    "answer_sim": 0.8788,
+    "answer_passed": true,
+    "top_scores": [
+      0.6185,
+      0.6073,
+      0.6012,
+      0.584
+    ]
+  },
+  {
+    "question": "I'm really stressed out lately... is there anyone I can talk to confidentially? like a counselor or something?",
+    "question_original": "How do I access EAP services?",
+    "answer": "Yes — through the Employee Assistance Program (EAP) at NovaTech Solutions, you can talk to a licensed professional confidentially. The EAP provides free counseling support for personal, emotional, financial, or work-related challenges, and it's available to all employees and their immediate family members.\n\nYou can access up to 6 counseling sessions per year, available via phone, video call, or in-person depending on your location. All conversations are strictly confidential and are not shared with the company or your manager. To get started, contact the dedicated helpline number listed on the benefits portal — it's available 24/7.",
+    "ground_truth": "The Employee Assistance Program (EAP) at NovaTech Solutions provides free, confidential counseling support for personal, emotional, financial, or work-related challenges, available to all employees and their immediate family members. You can access up to 6 counseling sessions per year with licensed professionals, available via phone, video call, or in-person, depending on your location. The EAP also offers resources on stress management, financial planning, legal consultations, and family support. All conversations are strictly confidential and not shared with the company or your manager. To access the EAP, contact the dedicated helpline number listed on the benefits portal, available 24/7.",
+    "hit": true,
+    "answer_sim": 0.9531,
+    "answer_passed": true,
+    "top_scores": [
+      0.4563,
+      0.4425,
+      0.4414,
+      0.4409
+    ]
+  },
+  {
+    "question": "my wife's due next month, can I split my paternity leave into a couple chunks instead of taking it all at once?",
+    "question_original": "Can paternity leave be split into multiple periods?",
+    "answer": "Yes. You can take your 2 weeks (10 working days) of paid paternity leave in a single block or split it into two instances within the 3-month window following the child's birth or adoption, subject to manager approval. Since your wife is due next month, request the leave through the HR portal at least 30 days in advance where possible (or as soon as feasible if delivery comes early), with supporting documentation such as the birth certificate or hospital records.",
+    "ground_truth": "Male employees at NovaTech Solutions are entitled to 2 weeks (10 working days) of paid paternity leave, which can be availed within 3 months of the child's birth or adoption. Paternity leave should be requested at least 30 days in advance where possible, or as soon as feasible in the case of early delivery, through the HR portal with supporting documentation such as the birth certificate or hospital records. This leave can be taken in a single block or split into two instances within the eligible window, subject to manager approval. Paternity leave is separate from casual and earned leave balances.",
+    "hit": true,
+    "answer_sim": 0.8455,
+    "answer_passed": true,
+    "top_scores": [
+      0.601,
+      0.5373,
+      0.5238,
+      0.5229
+    ]
+  },
+  {
+    "question": "can I mess around on whatever websites I want on my work laptop or is that monitored?",
+    "question_original": "Can I access any website on my work laptop?",
+    "answer": "No, you can't browse whatever websites you want on your work laptop. Company-issued devices are intended primarily for business use and must comply with the Acceptable Use Policy, which prohibits accessing prohibited websites. Limited personal use is permitted as long as it doesn't interfere with work responsibilities or compromise security. Additionally, all devices must have company-mandated security software, including antivirus and endpoint protection, which IT installs and manages remotely.",
+    "ground_truth": "Company-issued laptops and mobile devices are intended primarily for business use and must be used in compliance with NovaTech Solutions's Acceptable Use Policy, which prohibits installing unauthorized software, accessing prohibited websites, or using devices for illegal activities. Limited personal use is permitted as long as it doesn't interfere with work responsibilities or compromise security. All devices must have company-mandated security software, including antivirus and endpoint protection, which IT installs and manages remotely. Lost or stolen devices must be reported to IT immediately for remote wiping to protect company data. Personal devices used for work (BYOD) must be registered and comply with the mobile device management policy.",
+    "hit": true,
+    "answer_sim": 0.8187,
+    "answer_passed": true,
+    "top_scores": [
+      0.5907,
+      0.5413,
+      0.5386,
+      0.5242
+    ]
+  },
+  {
+    "question": "how long do I have to file my expense claim before it's too late? forgot to submit some receipts from last month",
+    "question_original": "Is there a deadline to submit reimbursement claims?",
+    "answer": "You have **15 days from the date your trip is completed** to submit your expense claims through the finance portal. Since you're dealing with receipts from last month, it's worth checking whether that window has already passed—if so, you should raise it with your manager or finance as soon as possible.\n\nA couple of related points that may matter for your situation:\n- Each claim needs itemized receipts. Expenses **above INR 500 without valid receipts may not be reimbursed**, so missing receipts could affect those items.\n- Daily meal allowances (per diem) are pre-defined by city in the travel policy, and actual expenses within that limit typically don't require individual receipts—so some of your meal costs may still be claimable even without receipts.\n- Once submitted, claims go to your manager for review and then to finance, with reimbursement credited within **10 business days of approval**.",
+    "ground_truth": "Eligible business-related expenses, such as internet bills for remote work, mobile phone usage, and approved client entertainment costs, can be reimbursed through the HR/finance portal. To claim reimbursement, submit original receipts along with a completed expense form within 30 days of incurring the expense. Reimbursement requests are reviewed by your manager and processed by the finance team within 10 business days of approval, credited directly to your registered bank account. Certain reimbursements, like internet allowances, may have monthly caps as defined in your compensation structure. Please retain all receipts, as claims without valid proof of expense cannot be processed.",
+    "hit": false,
+    "answer_sim": 0.8144,
+    "answer_passed": true,
+    "top_scores": [
+      0.6644,
+      0.6463,
+      0.6463,
+      0.6446
+    ]
+  },
+  {
+    "question": "my colleague and I keep butting heads, honestly getting pretty annoying... what am I supposed to do about it?",
+    "question_original": "How should I handle a conflict with a coworker?",
+    "answer": "Personal conflicts shouldn't be brought into professional interactions, so it's best to keep things courteous and respectful with your colleague even when you're frustrated. If the friction relates to unfair treatment, policy disputes, or interpersonal issues, you can raise it as a workplace grievance through the HR portal or by contacting your HR business partner directly. Grievances are typically acknowledged within 2 business days and resolved or updated within 15 business days, with confidentiality maintained to the extent possible and protection from retaliation for raising concerns in good faith. If you're unsatisfied with the outcome, you can escalate the matter to senior HR leadership for further review.",
+    "ground_truth": "NovaTech Solutions encourages employees to address workplace conflicts directly and respectfully with the involved party as a first step, as many issues can be resolved through open communication. If direct resolution isn't possible or appropriate, employees can involve their manager or HR business partner to facilitate a structured conversation or mediation session. HR is trained to remain neutral and focus on finding constructive solutions that address the underlying issue while maintaining working relationships. For persistent or serious conflicts, formal mediation sessions can be scheduled, and outcomes are documented for future reference. Employees are never obligated to resolve conflicts alone and can seek HR support at any stage.",
+    "hit": false,
+    "answer_sim": 0.7547,
+    "answer_passed": false,
+    "top_scores": [
+      0.4693,
+      0.4661,
+      0.456,
+      0.4559
+    ]
+  },
+  {
+    "question": "I just put in my papers... when should I start doing the handover stuff?",
+    "question_original": "When should I start my handover process?",
+    "answer": "You should begin knowledge transfer and handover documentation as soon as your resignation is accepted, working in coordination with your manager to ensure a smooth transition for your team and replacement.",
+    "ground_truth": "To resign from NovaTech Solutions, submit your resignation letter through the HR portal, clearly stating your intended last working day, and inform your manager directly as a courtesy before or alongside the formal submission. Once submitted, your manager and HR will schedule a discussion to understand your decision and discuss the notice period and transition plan. You'll receive an acknowledgment email confirming your resignation and last working day within 2 business days. It's recommended to begin knowledge transfer and handover documentation as soon as your resignation is accepted, in coordination with your manager, to ensure a smooth transition for your team and replacement.",
+    "hit": true,
+    "answer_sim": 0.7983,
+    "answer_passed": false,
+    "top_scores": [
+      0.5966,
+      0.5617,
+      0.5493,
+      0.5472
+    ]
+  },
+  {
+    "question": "planning to start a family, how much maternity leave would I get?",
+    "question_original": "How many weeks of maternity leave am I eligible for?",
+    "answer": "You would be eligible for 26 weeks of paid maternity leave for up to two surviving children, and 12 weeks for the third child onward. The leave can typically begin up to 8 weeks before your expected delivery date, and you're encouraged to notify HR at least 60 days before your anticipated start date to arrange work handover. Medical documentation from your healthcare provider is required to process the leave, and the company also supports a flexible return-to-work transition, including hybrid arrangements during your first month back.",
+    "ground_truth": "NovaTech Solutions offers 26 weeks of paid maternity leave in accordance with applicable labor laws, available to female employees for up to two surviving children, and 12 weeks for the third child onward. Leave typically begins up to 8 weeks before the expected delivery date and can be planned with HR and your manager in advance. Employees are encouraged to notify HR at least 60 days before the anticipated leave start date to arrange work handover. The company also supports a flexible return-to-work transition, including options for hybrid arrangements during the first month back. Medical documentation from your healthcare provider is required to process the leave.",
+    "hit": true,
+    "answer_sim": 0.8798,
+    "answer_passed": true,
+    "top_scores": [
+      0.6176,
+      0.6142,
+      0.6116,
+      0.6065
+    ]
+  }
+]

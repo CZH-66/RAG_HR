@@ -1,0 +1,602 @@
+[
+  {
+    "question": "What happens if my manager doesn't respond to my leave request?",
+    "question_original": "What happens if my manager doesn't respond to my leave request?",
+    "answer": "If your manager doesn't respond to your leave request, it is automatically escalated to the next-level approver after 48 hours. You'll receive an email and portal notification once your leave is approved or rejected, along with any comments.",
+    "ground_truth": "All leave requests at NovaTech Solutions must be submitted through the HR portal, where they are routed to your direct manager for approval. Casual and sick leave are typically approved within 24 hours, while earned leave requests, especially for longer durations, may take up to 3 business days for approval due to workload planning. If your manager is unavailable, requests are automatically escalated to the next-level approver after 48 hours. You'll receive an email and portal notification once your leave is approved or rejected, along with any comments. Always ensure work handover notes are shared with your team before extended leave to maintain business continuity.",
+    "hit": true,
+    "answer_sim": 0.8128,
+    "answer_passed": true,
+    "top_scores": [
+      0.6225,
+      0.6105,
+      0.5782,
+      0.5672
+    ]
+  },
+  {
+    "question": "Which days am I required to come to the office?",
+    "question_original": "Which days am I required to come to the office?",
+    "answer": "You're required to be in the office 3 days a week, typically Tuesday, Wednesday, and Thursday, with remote work allowed on the remaining 2 days. Your specific in-office days may vary by team based on project or client requirements, as decided by your manager.",
+    "ground_truth": "Our hybrid work model requires employees to be in the office 3 days a week (typically Tuesday, Wednesday, and Thursday) and allows remote work on the remaining 2 days. Specific in-office days may vary by team based on project or client requirements, as decided by your manager. Badge-in records at the office are used to confirm hybrid compliance. If you need to swap an in-office day for a valid reason, inform your manager in advance. The hybrid model is reviewed periodically by HR and leadership based on business needs and may be adjusted with prior notice to employees.",
+    "hit": true,
+    "answer_sim": 0.8708,
+    "answer_passed": true,
+    "top_scores": [
+      0.6637,
+      0.6236,
+      0.6203,
+      0.5967
+    ]
+  },
+  {
+    "question": "What framework does the company use for goal setting?",
+    "question_original": "What framework does the company use for goal setting?",
+    "answer": "The company uses the OKR (Objectives and Key Results) framework for goal setting.",
+    "ground_truth": "At the start of each performance cycle, employees at NovaTech Solutions set individual goals in collaboration with their manager, typically following the OKR (Objectives and Key Results) framework to ensure alignment with team and company priorities. Goals should be specific, measurable, and time-bound, and are documented in the performance management system for tracking throughout the cycle. Mid-cycle check-ins, usually monthly or quarterly, allow for progress discussions and goal adjustments if business priorities shift. It's recommended to have at least 3-5 key goals per cycle to maintain focus. Your manager is available to help refine goals that balance stretch targets with realistic expectations.",
+    "hit": true,
+    "answer_sim": 0.6975,
+    "answer_passed": false,
+    "top_scores": [
+      0.7133,
+      0.5913,
+      0.585,
+      0.5829
+    ]
+  },
+  {
+    "question": "Will BGV affect my joining date?",
+    "question_original": "Will BGV affect my joining date?",
+    "answer": "Background verification runs in parallel with onboarding, so it typically does not delay your joining date. The process is usually initiated after offer acceptance and completed within 2-3 weeks. However, any major discrepancies found could impact continued employment as per the terms outlined in your offer letter.",
+    "ground_truth": "NovaTech Solutions conducts background verification (BGV) for all new hires through a certified third-party agency, typically initiated after offer acceptance and completed within 2-3 weeks. The BGV process includes verification of educational qualifications, previous employment history, address proof, and criminal record checks where legally permitted. Candidates will receive a verification consent form and may be contacted directly by the agency for additional documents. While BGV runs in parallel with onboarding, any major discrepancies found could impact continued employment as per the terms outlined in your offer letter. You can check your BGV status by reaching out to HR or the verification agency directly.",
+    "hit": true,
+    "answer_sim": 0.8153,
+    "answer_passed": true,
+    "top_scores": [
+      0.6973,
+      0.5929,
+      0.5756,
+      0.5656
+    ]
+  },
+  {
+    "question": "Who conducts the final interview round?",
+    "question_original": "Who conducts the final interview round?",
+    "answer": "The final interview round is conducted by the hiring manager or leadership.",
+    "ground_truth": "The recruitment process at NovaTech Solutions typically involves 3-4 stages: an initial HR screening call, one or two technical or role-specific interview rounds, and a final round with the hiring manager or leadership. For technical roles, a coding assessment or case study may be included between the screening and interview stages. The entire process usually takes 2-3 weeks from application to offer, though timelines can vary based on role seniority and scheduling availability. Candidates receive feedback and next steps via email after each stage, coordinated by the talent acquisition team. We encourage candidates to ask questions about the role and team during interviews.",
+    "hit": true,
+    "answer_sim": 0.6815,
+    "answer_passed": false,
+    "top_scores": [
+      0.6251,
+      0.5807,
+      0.5588,
+      0.5559
+    ]
+  },
+  {
+    "question": "Does the company help with tax planning?",
+    "question_original": "Does the company help with tax planning?",
+    "answer": "NovaTech Solutions handles statutory tax compliance—deducting TDS based on your declared tax regime and investment declarations, collecting investment proofs and tax-saving declarations through the payroll portal during the April and January windows, and issuing Form 16 annually (usually by June). However, for personalized tax planning advice, the company recommends consulting a certified tax professional.",
+    "ground_truth": "NovaTech Solutions deducts income tax at source (TDS) based on your declared tax regime and investment declarations, in compliance with applicable tax laws. Employees are required to submit investment proofs and tax-saving declarations through the payroll portal, typically during the declaration windows in April and January, to ensure accurate tax computation. Statutory deductions also include provident fund (PF) and professional tax, where applicable, based on your location and salary structure. Form 16 is issued annually, usually by June, summarizing your total tax deducted for the financial year. For personalized tax planning advice, we recommend consulting a certified tax professional.",
+    "hit": true,
+    "answer_sim": 0.9171,
+    "answer_passed": true,
+    "top_scores": [
+      0.5924,
+      0.5453,
+      0.5298,
+      0.5247
+    ]
+  },
+  {
+    "question": "Can I take unpaid leave if I've used all my paid leave?",
+    "question_original": "Can I take unpaid leave if I've used all my paid leave?",
+    "answer": "Yes. Once you've exhausted your casual, sick, and earned leave balances, unpaid leave may be granted subject to manager and HR approval. You should submit your request through the HR portal with a clear reason and expected duration, ideally at least 2 weeks in advance for planned circumstances.\n\nKeep in mind that unpaid leave exceeding 30 days may affect benefits continuity (such as insurance coverage), and HR will communicate this clearly beforehand. Extended unpaid leave beyond 90 days requires senior leadership approval and may impact your employment status, so it's best to discuss your specific situation with HR to understand all implications.",
+    "ground_truth": "Unpaid leave may be granted at NovaTech Solutions once an employee has exhausted their casual, sick, and earned leave balances, subject to manager and HR approval. Requests for unpaid leave should be submitted through the HR portal with a clear reason and expected duration, ideally at least 2 weeks in advance for planned circumstances. Unpaid leave exceeding 30 days may affect benefits continuity, such as insurance coverage, and will be communicated clearly by HR beforehand. Extended unpaid leave beyond 90 days requires senior leadership approval and may impact your employment status, so please discuss your specific situation with HR to understand all implications.",
+    "hit": true,
+    "answer_sim": 0.8858,
+    "answer_passed": true,
+    "top_scores": [
+      0.6731,
+      0.6352,
+      0.6293,
+      0.6198
+    ]
+  },
+  {
+    "question": "Can paternity leave be split into multiple periods?",
+    "question_original": "Can paternity leave be split into multiple periods?",
+    "answer": "Yes. Paternity leave can be taken in a single block or split into two instances within the eligible window, subject to manager approval.",
+    "ground_truth": "Male employees at NovaTech Solutions are entitled to 2 weeks (10 working days) of paid paternity leave, which can be availed within 3 months of the child's birth or adoption. Paternity leave should be requested at least 30 days in advance where possible, or as soon as feasible in the case of early delivery, through the HR portal with supporting documentation such as the birth certificate or hospital records. This leave can be taken in a single block or split into two instances within the eligible window, subject to manager approval. Paternity leave is separate from casual and earned leave balances.",
+    "hit": true,
+    "answer_sim": 0.7475,
+    "answer_passed": false,
+    "top_scores": [
+      0.7308,
+      0.6079,
+      0.5763,
+      0.5758
+    ]
+  },
+  {
+    "question": "How should I handle a conflict with a coworker?",
+    "question_original": "How should I handle a conflict with a coworker?",
+    "answer": "At NovaTech Solutions, the first step is to address the conflict directly and respectfully with the coworker involved, since many issues can be resolved through open communication. If direct resolution isn't possible or appropriate, you can involve your manager or HR business partner to facilitate a structured conversation or mediation session. HR remains neutral and focuses on constructive solutions that address the underlying issue while preserving working relationships. For persistent or serious conflicts, formal mediation sessions can be scheduled, with outcomes documented for future reference. You are never obligated to resolve conflicts alone and can seek HR support at any stage.",
+    "ground_truth": "NovaTech Solutions encourages employees to address workplace conflicts directly and respectfully with the involved party as a first step, as many issues can be resolved through open communication. If direct resolution isn't possible or appropriate, employees can involve their manager or HR business partner to facilitate a structured conversation or mediation session. HR is trained to remain neutral and focus on finding constructive solutions that address the underlying issue while maintaining working relationships. For persistent or serious conflicts, formal mediation sessions can be scheduled, and outcomes are documented for future reference. Employees are never obligated to resolve conflicts alone and can seek HR support at any stage.",
+    "hit": true,
+    "answer_sim": 0.981,
+    "answer_passed": true,
+    "top_scores": [
+      0.6417,
+      0.5643,
+      0.5631,
+      0.549
+    ]
+  },
+  {
+    "question": "What are the general office conduct expectations?",
+    "question_original": "What are the general office conduct expectations?",
+    "answer": "All employees are expected to maintain professional and respectful behavior in the workplace, treating colleagues, clients, and visitors with courtesy. This includes punctuality for meetings, maintaining a clean and organized workspace, using inside voices in open areas, and respecting shared resources like meeting rooms and pantries. Personal conflicts should never be brought into professional interactions. Use of offensive language, discriminatory remarks, or disruptive behavior is strictly prohibited and may result in disciplinary action. Employees should also be mindful of noise levels during calls and use designated areas for personal phone conversations to avoid disturbing colleagues.",
+    "ground_truth": "All employees at NovaTech Solutions are expected to maintain professional and respectful behavior in the workplace, treating colleagues, clients, and visitors with courtesy. This includes punctuality for meetings, maintaining a clean and organized workspace, using inside voices in open areas, and respecting shared resources like meeting rooms and pantries. Personal conflicts should never be brought into professional interactions. Use of offensive language, discriminatory remarks, or disruptive behavior is strictly prohibited and may result in disciplinary action. Employees should also be mindful of noise levels during calls and use designated areas for personal phone conversations to avoid disturbing colleagues.",
+    "hit": true,
+    "answer_sim": 0.8912,
+    "answer_passed": true,
+    "top_scores": [
+      0.5874,
+      0.479,
+      0.4736,
+      0.4735
+    ]
+  },
+  {
+    "question": "Can the hybrid policy change in the future?",
+    "question_original": "Can the hybrid policy change in the future?",
+    "answer": "Yes. The hybrid model is reviewed periodically by HR and leadership based on business needs, and it may be adjusted with prior notice to employees.",
+    "ground_truth": "Our hybrid work model requires employees to be in the office 3 days a week (typically Tuesday, Wednesday, and Thursday) and allows remote work on the remaining 2 days. Specific in-office days may vary by team based on project or client requirements, as decided by your manager. Badge-in records at the office are used to confirm hybrid compliance. If you need to swap an in-office day for a valid reason, inform your manager in advance. The hybrid model is reviewed periodically by HR and leadership based on business needs and may be adjusted with prior notice to employees.",
+    "hit": true,
+    "answer_sim": 0.7793,
+    "answer_passed": false,
+    "top_scores": [
+      0.5233,
+      0.4857,
+      0.4588,
+      0.457
+    ]
+  },
+  {
+    "question": "Is paternity leave separate from my casual leave balance?",
+    "question_original": "Is paternity leave separate from my casual leave balance?",
+    "answer": "Yes. Paternity leave is separate from casual and earned leave balances. Male employees are entitled to 2 weeks (10 working days) of paid paternity leave, which can be availed within 3 months of the child's birth or adoption.",
+    "ground_truth": "Male employees at NovaTech Solutions are entitled to 2 weeks (10 working days) of paid paternity leave, which can be availed within 3 months of the child's birth or adoption. Paternity leave should be requested at least 30 days in advance where possible, or as soon as feasible in the case of early delivery, through the HR portal with supporting documentation such as the birth certificate or hospital records. This leave can be taken in a single block or split into two instances within the eligible window, subject to manager approval. Paternity leave is separate from casual and earned leave balances.",
+    "hit": true,
+    "answer_sim": 0.8901,
+    "answer_passed": true,
+    "top_scores": [
+      0.7033,
+      0.6423,
+      0.6026,
+      0.6023
+    ]
+  },
+  {
+    "question": "Do I need to inform HR before using EAP?",
+    "question_original": "Do I need to inform HR before using EAP?",
+    "answer": "No, you don't need to inform HR before using the EAP. Access is arranged by contacting the dedicated helpline number listed on the benefits portal, which is available 24/7. All conversations are strictly confidential and are not shared with the company or your manager.",
+    "ground_truth": "The Employee Assistance Program (EAP) at NovaTech Solutions provides free, confidential counseling support for personal, emotional, financial, or work-related challenges, available to all employees and their immediate family members. You can access up to 6 counseling sessions per year with licensed professionals, available via phone, video call, or in-person, depending on your location. The EAP also offers resources on stress management, financial planning, legal consultations, and family support. All conversations are strictly confidential and not shared with the company or your manager. To access the EAP, contact the dedicated helpline number listed on the benefits portal, available 24/7.",
+    "hit": true,
+    "answer_sim": 0.7861,
+    "answer_passed": false,
+    "top_scores": [
+      0.6907,
+      0.5964,
+      0.5859,
+      0.5849
+    ]
+  },
+  {
+    "question": "Is the offer conditional on background verification?",
+    "question_original": "Is the offer conditional on background verification?",
+    "answer": "Yes. The offer letter includes any conditions such as background verification, and background verification is conducted for all new hires. Any major discrepancies found could impact continued employment as per the terms outlined in the offer letter.",
+    "ground_truth": "Once a candidate successfully clears all interview rounds, NovaTech Solutions's talent acquisition team extends a formal offer letter via email, typically within 3-5 business days of the final interview. The offer letter includes details on role, compensation, benefits, joining date, and any conditions such as background verification. Candidates are generally given 5-7 days to review and accept the offer, though extensions can be discussed with the recruiter if needed. Salary negotiations, if any, should be discussed before formal acceptance. Upon acceptance, a digitally signed copy of the offer letter is required, followed by initiation of joining formalities and background verification.",
+    "hit": true,
+    "answer_sim": 0.7551,
+    "answer_passed": false,
+    "top_scores": [
+      0.6237,
+      0.5758,
+      0.5737,
+      0.5673
+    ]
+  },
+  {
+    "question": "What happens if I skip my scheduled office day?",
+    "question_original": "What happens if I skip my scheduled office day?",
+    "answer": "If you skip your scheduled office day, badge-in records at the office are used to confirm hybrid compliance, so an unexcused absence from your in-office day would be visible. If you need to swap an in-office day for a valid reason, you should inform your manager in advance.",
+    "ground_truth": "Our hybrid work model requires employees to be in the office 3 days a week (typically Tuesday, Wednesday, and Thursday) and allows remote work on the remaining 2 days. Specific in-office days may vary by team based on project or client requirements, as decided by your manager. Badge-in records at the office are used to confirm hybrid compliance. If you need to swap an in-office day for a valid reason, inform your manager in advance. The hybrid model is reviewed periodically by HR and leadership based on business needs and may be adjusted with prior notice to employees.",
+    "hit": true,
+    "answer_sim": 0.8084,
+    "answer_passed": true,
+    "top_scores": [
+      0.677,
+      0.5492,
+      0.539,
+      0.5374
+    ]
+  },
+  {
+    "question": "How do I check my PF balance?",
+    "question_original": "How do I check my PF balance?",
+    "answer": "You can check your PF balance and contribution statements through the EPFO portal. If you're a new employee, HR can assist with UAN activation so you can access your account details.",
+    "ground_truth": "NovaTech Solutions contributes to your Provident Fund (PF) at 12% of your basic salary, matched equally by the company, in line with statutory requirements, providing a long-term retirement savings vehicle. Employees may also opt for the National Pension Scheme (NPS) as an additional voluntary retirement benefit, with tax advantages under applicable sections of the Income Tax Act. Your PF account details and contribution statements are accessible through the EPFO portal, and HR can assist with UAN activation for new employees. Upon resignation or retirement, PF balances can be withdrawn or transferred to a new employer's account, subject to applicable rules and minimum service tenure.",
+    "hit": true,
+    "answer_sim": 0.8058,
+    "answer_passed": true,
+    "top_scores": [
+      0.6561,
+      0.5375,
+      0.524,
+      0.5178
+    ]
+  },
+  {
+    "question": "Is anti-harassment training mandatory?",
+    "question_original": "Is anti-harassment training mandatory?",
+    "answer": "Yes. Employees are required to complete mandatory anti-harassment training annually to foster a safe and respectful workplace.",
+    "ground_truth": "NovaTech Solutions maintains a zero-tolerance policy toward workplace harassment, including sexual harassment, bullying, and discrimination based on gender, race, religion, or any other protected characteristic. Employees who experience or witness harassment are encouraged to report it immediately to HR or through the confidential ethics hotline, without fear of retaliation. All complaints are investigated promptly and impartially by a designated Internal Committee (IC), typically within 90 days as mandated by law, with strict confidentiality maintained throughout. Substantiated cases result in appropriate disciplinary action, which may include termination. Employees are also required to complete mandatory anti-harassment training annually to foster a safe and respectful workplace.",
+    "hit": true,
+    "answer_sim": 0.7646,
+    "answer_passed": false,
+    "top_scores": [
+      0.7766,
+      0.6144,
+      0.6086,
+      0.5956
+    ]
+  },
+  {
+    "question": "How many interview rounds should I expect?",
+    "question_original": "How many interview rounds should I expect?",
+    "answer": "You should expect 3-4 stages: an initial HR screening call, one or two technical or role-specific interview rounds, and a final round with the hiring manager or leadership. For technical roles, a coding assessment or case study may be included between the screening and interview stages.",
+    "ground_truth": "The recruitment process at NovaTech Solutions typically involves 3-4 stages: an initial HR screening call, one or two technical or role-specific interview rounds, and a final round with the hiring manager or leadership. For technical roles, a coding assessment or case study may be included between the screening and interview stages. The entire process usually takes 2-3 weeks from application to offer, though timelines can vary based on role seniority and scheduling availability. Candidates receive feedback and next steps via email after each stage, coordinated by the talent acquisition team. We encourage candidates to ask questions about the role and team during interviews.",
+    "hit": true,
+    "answer_sim": 0.8311,
+    "answer_passed": true,
+    "top_scores": [
+      0.6854,
+      0.618,
+      0.5738,
+      0.5692
+    ]
+  },
+  {
+    "question": "When should I start my handover process?",
+    "question_original": "When should I start my handover process?",
+    "answer": "You should begin knowledge transfer and handover documentation as soon as your resignation is accepted, coordinating with your manager to ensure a smooth transition for your team and replacement.",
+    "ground_truth": "To resign from NovaTech Solutions, submit your resignation letter through the HR portal, clearly stating your intended last working day, and inform your manager directly as a courtesy before or alongside the formal submission. Once submitted, your manager and HR will schedule a discussion to understand your decision and discuss the notice period and transition plan. You'll receive an acknowledgment email confirming your resignation and last working day within 2 business days. It's recommended to begin knowledge transfer and handover documentation as soon as your resignation is accepted, in coordination with your manager, to ensure a smooth transition for your team and replacement.",
+    "hit": true,
+    "answer_sim": 0.7951,
+    "answer_passed": false,
+    "top_scores": [
+      0.6519,
+      0.6066,
+      0.554,
+      0.5398
+    ]
+  },
+  {
+    "question": "How often are goal progress check-ins held?",
+    "question_original": "How often are goal progress check-ins held?",
+    "answer": "Goal progress check-ins are held mid-cycle, usually monthly or quarterly, to allow for progress discussions and goal adjustments if business priorities shift.",
+    "ground_truth": "At the start of each performance cycle, employees at NovaTech Solutions set individual goals in collaboration with their manager, typically following the OKR (Objectives and Key Results) framework to ensure alignment with team and company priorities. Goals should be specific, measurable, and time-bound, and are documented in the performance management system for tracking throughout the cycle. Mid-cycle check-ins, usually monthly or quarterly, allow for progress discussions and goal adjustments if business priorities shift. It's recommended to have at least 3-5 key goals per cycle to maintain focus. Your manager is available to help refine goals that balance stretch targets with realistic expectations.",
+    "hit": true,
+    "answer_sim": 0.7393,
+    "answer_passed": false,
+    "top_scores": [
+      0.7112,
+      0.5602,
+      0.5512,
+      0.5445
+    ]
+  },
+  {
+    "question": "What's the standard office schedule for employees?",
+    "question_original": "What's the standard office schedule for employees?",
+    "answer": "The standard office schedule is 9:30 AM to 6:30 PM, Monday through Friday, with a one-hour lunch break. Core collaboration hours, when all employees are expected to be online or in the office, are 11:00 AM to 4:00 PM. Some teams may follow flexible start times between 8:30 AM and 10:30 AM, subject to manager approval, as long as 8.5 working hours are completed daily. Hours should be logged through the HR portal for accurate attendance tracking, and any permanent shift adjustment requires a request to your manager and HR for review.",
+    "ground_truth": "NovaTech Solutions follows standard working hours of 9:30 AM to 6:30 PM, Monday through Friday, with a one-hour lunch break. Core collaboration hours, when all employees are expected to be online or in the office, are 11:00 AM to 4:00 PM. Some teams may follow flexible start times between 8:30 AM and 10:30 AM, subject to manager approval, as long as 8.5 working hours are completed daily. Please log your hours through the HR portal for accurate attendance tracking. If you need a permanent shift adjustment, submit a request to your manager and HR for review.",
+    "hit": true,
+    "answer_sim": 0.8823,
+    "answer_passed": true,
+    "top_scores": [
+      0.6733,
+      0.626,
+      0.6165,
+      0.603
+    ]
+  },
+  {
+    "question": "Is there a deadline to submit reimbursement claims?",
+    "question_original": "Is there a deadline to submit reimbursement claims?",
+    "answer": "Yes. Reimbursement claims must be submitted with original receipts and a completed expense form within 30 days of incurring the expense.",
+    "ground_truth": "Eligible business-related expenses, such as internet bills for remote work, mobile phone usage, and approved client entertainment costs, can be reimbursed through the HR/finance portal. To claim reimbursement, submit original receipts along with a completed expense form within 30 days of incurring the expense. Reimbursement requests are reviewed by your manager and processed by the finance team within 10 business days of approval, credited directly to your registered bank account. Certain reimbursements, like internet allowances, may have monthly caps as defined in your compensation structure. Please retain all receipts, as claims without valid proof of expense cannot be processed.",
+    "hit": true,
+    "answer_sim": 0.8583,
+    "answer_passed": true,
+    "top_scores": [
+      0.7155,
+      0.6369,
+      0.6224,
+      0.6223
+    ]
+  },
+  {
+    "question": "Is travel insurance provided for business trips?",
+    "question_original": "Is travel insurance provided for business trips?",
+    "answer": "Yes, the company provides travel insurance for all business trips. Employees traveling internationally should coordinate with HR regarding visa assistance and travel insurance.",
+    "ground_truth": "For business travel, NovaTech Solutions employees should book flights, hotels, and ground transportation through the approved corporate travel portal at least 5-7 days in advance where possible, to secure better rates and ensure policy compliance. Travel class and hotel category are determined by employee grade level, as outlined in the travel policy document. All domestic and international travel requires prior approval from your manager, submitted through the travel request form, including trip purpose and estimated budget. Employees traveling internationally should also coordinate with HR regarding visa assistance and travel insurance, which is provided by the company for all business trips.",
+    "hit": true,
+    "answer_sim": 0.7388,
+    "answer_passed": false,
+    "top_scores": [
+      0.6949,
+      0.5872,
+      0.58,
+      0.5674
+    ]
+  },
+  {
+    "question": "Where can I find details of my incentive plan?",
+    "question_original": "Where can I find details of my incentive plan?",
+    "answer": "You can find details of your incentive plan in your role-specific compensation letter, or your manager can communicate them to you. Incentive structures vary by department.",
+    "ground_truth": "In addition to annual bonuses, NovaTech Solutions offers role-specific incentive programs, such as sales commissions, referral bonuses, and project completion incentives, designed to reward exceptional contributions throughout the year. Employee referral incentives range from a fixed amount paid after the referred candidate completes 3 months of successful employment. Spot incentives may also be awarded by managers for outstanding work on critical projects, subject to budget approval. Incentive structures vary by department and are detailed in your role-specific compensation letter or communicated by your manager. All incentive payouts are processed through payroll and are subject to standard tax deductions.",
+    "hit": true,
+    "answer_sim": 0.7526,
+    "answer_passed": false,
+    "top_scores": [
+      0.5673,
+      0.542,
+      0.5386,
+      0.532
+    ]
+  },
+  {
+    "question": "How do I access EAP services?",
+    "question_original": "How do I access EAP services?",
+    "answer": "To access the Employee Assistance Program (EAP) at NovaTech Solutions, contact the dedicated helpline number listed on the benefits portal, which is available 24/7. The EAP provides free, confidential counseling support for personal, emotional, financial, or work-related challenges to all employees and their immediate family members, with up to 6 counseling sessions per year available via phone, video call, or in-person depending on your location.",
+    "ground_truth": "The Employee Assistance Program (EAP) at NovaTech Solutions provides free, confidential counseling support for personal, emotional, financial, or work-related challenges, available to all employees and their immediate family members. You can access up to 6 counseling sessions per year with licensed professionals, available via phone, video call, or in-person, depending on your location. The EAP also offers resources on stress management, financial planning, legal consultations, and family support. All conversations are strictly confidential and not shared with the company or your manager. To access the EAP, contact the dedicated helpline number listed on the benefits portal, available 24/7.",
+    "hit": true,
+    "answer_sim": 0.9868,
+    "answer_passed": true,
+    "top_scores": [
+      0.663,
+      0.6059,
+      0.6036,
+      0.6027
+    ]
+  },
+  {
+    "question": "How do I book travel for a business trip?",
+    "question_original": "How do I book travel for a business trip?",
+    "answer": "To book travel for a business trip, book your flights, hotels, and ground transportation through the approved corporate travel portal, ideally at least 5–7 days in advance to secure better rates and ensure policy compliance. Your travel class and hotel category are determined by your employee grade level, as outlined in the travel policy document. All domestic and international travel requires prior approval from your manager, submitted through the travel request form, including the trip purpose and estimated budget. If traveling internationally, also coordinate with HR regarding visa assistance and travel insurance, which the company provides for all business trips.",
+    "ground_truth": "For business travel, NovaTech Solutions employees should book flights, hotels, and ground transportation through the approved corporate travel portal at least 5-7 days in advance where possible, to secure better rates and ensure policy compliance. Travel class and hotel category are determined by employee grade level, as outlined in the travel policy document. All domestic and international travel requires prior approval from your manager, submitted through the travel request form, including trip purpose and estimated budget. Employees traveling internationally should also coordinate with HR regarding visa assistance and travel insurance, which is provided by the company for all business trips.",
+    "hit": true,
+    "answer_sim": 0.8913,
+    "answer_passed": true,
+    "top_scores": [
+      0.6726,
+      0.5989,
+      0.5982,
+      0.5901
+    ]
+  },
+  {
+    "question": "Does paternity leave apply to adoptive fathers?",
+    "question_original": "Does paternity leave apply to adoptive fathers?",
+    "answer": "Yes. Paternity leave can be availed within 3 months of the child's birth or adoption, so it applies to adoptive fathers as well. Male employees are entitled to 2 weeks (10 working days) of paid paternity leave, requested through the HR portal with supporting documentation.",
+    "ground_truth": "Male employees at NovaTech Solutions are entitled to 2 weeks (10 working days) of paid paternity leave, which can be availed within 3 months of the child's birth or adoption. Paternity leave should be requested at least 30 days in advance where possible, or as soon as feasible in the case of early delivery, through the HR portal with supporting documentation such as the birth certificate or hospital records. This leave can be taken in a single block or split into two instances within the eligible window, subject to manager approval. Paternity leave is separate from casual and earned leave balances.",
+    "hit": true,
+    "answer_sim": 0.8919,
+    "answer_passed": true,
+    "top_scores": [
+      0.7041,
+      0.6206,
+      0.6189,
+      0.6127
+    ]
+  },
+  {
+    "question": "Can I access any website on my work laptop?",
+    "question_original": "Can I access any website on my work laptop?",
+    "answer": "No. Company-issued laptops are intended primarily for business use and must comply with the Acceptable Use Policy, which prohibits accessing prohibited websites. Limited personal use is permitted as long as it doesn't interfere with work responsibilities or compromise security.",
+    "ground_truth": "Company-issued laptops and mobile devices are intended primarily for business use and must be used in compliance with NovaTech Solutions's Acceptable Use Policy, which prohibits installing unauthorized software, accessing prohibited websites, or using devices for illegal activities. Limited personal use is permitted as long as it doesn't interfere with work responsibilities or compromise security. All devices must have company-mandated security software, including antivirus and endpoint protection, which IT installs and manages remotely. Lost or stolen devices must be reported to IT immediately for remote wiping to protect company data. Personal devices used for work (BYOD) must be registered and comply with the mobile device management policy.",
+    "hit": true,
+    "answer_sim": 0.8559,
+    "answer_passed": true,
+    "top_scores": [
+      0.6829,
+      0.5836,
+      0.5712,
+      0.5323
+    ]
+  },
+  {
+    "question": "Is bereavement leave paid?",
+    "question_original": "Is bereavement leave paid?",
+    "answer": "Yes. NovaTech Solutions provides 5 working days of paid bereavement leave in the event of the death of an immediate family member, including spouse, parents, children, or siblings. For extended family members, employees may take up to 2 days of bereavement leave, or use casual/earned leave for additional time as needed.",
+    "ground_truth": "NovaTech Solutions provides 5 working days of paid bereavement leave in the event of the death of an immediate family member, including spouse, parents, children, or siblings. For extended family members, employees may take up to 2 days of bereavement leave, or use casual/earned leave for additional time as needed. Bereavement leave can be applied retroactively through the HR portal or communicated verbally to your manager, with formal documentation submitted upon return. Our HR team is also available to connect employees with the Employee Assistance Program for grief counseling support during this difficult time. Please reach out to HR directly if you need flexibility beyond the standard allowance.",
+    "hit": true,
+    "answer_sim": 0.9733,
+    "answer_passed": true,
+    "top_scores": [
+      0.7012,
+      0.6598,
+      0.6539,
+      0.6534
+    ]
+  },
+  {
+    "question": "How do I know when my claim has been paid?",
+    "question_original": "How do I know when my claim has been paid?",
+    "answer": "You can track your claim's status in real time through the finance portal, which shows stages including 'Submitted,' 'Manager Approved,' 'Finance Review,' and 'Paid.' Once the claim reaches the 'Paid' stage, the reimbursement amount has been credited directly to your registered bank account, typically within 7-10 business days after manager approval.",
+    "ground_truth": "Once your travel expense claim is submitted with all required receipts and documentation through the finance portal, it first goes to your manager for approval, typically within 3 business days. After manager approval, the finance team processes the reimbursement, crediting the amount directly to your registered bank account within 7-10 business days. You can track the status of your claim in real time through the portal, which shows stages like 'Submitted,' 'Manager Approved,' 'Finance Review,' and 'Paid.' For urgent reimbursement needs, such as large advance settlements, please flag the claim as priority and inform the finance team directly for expedited processing.",
+    "hit": true,
+    "answer_sim": 0.9336,
+    "answer_passed": true,
+    "top_scores": [
+      0.6661,
+      0.6134,
+      0.5974,
+      0.5931
+    ]
+  },
+  {
+    "question": "How do I submit expense claims after a business trip?",
+    "question_original": "How do I submit expense claims after a business trip?",
+    "answer": "Submit all business-related travel expenses—such as meals, local transport, and incidentals—as expense claims through the finance portal within 15 days of trip completion. Each claim must include itemized receipts; expenses without valid receipts above INR 500 may not be reimbursed. Daily meal allowances (per diem) vary by city and are pre-defined in the travel policy, so actual expenses within this limit typically don't require individual receipts. Claims are reviewed by your manager and then processed by finance, with reimbursement credited within 10 business days of approval. Personal expenses mixed into business trips will not be reimbursed.",
+    "ground_truth": "All business-related expenses incurred during travel, such as meals, local transport, and incidentals, should be submitted as expense claims through the finance portal within 15 days of trip completion. Each claim must include itemized receipts; expenses without valid receipts above INR 500 may not be reimbursed. Daily meal allowances (per diem) vary by city and are pre-defined in the travel policy, so actual expenses within this limit typically don't require individual receipts. Claims are reviewed by your manager and then processed by finance, with reimbursement credited within 10 business days of approval. Personal expenses mixed into business trips will not be reimbursed.",
+    "hit": true,
+    "answer_sim": 0.9961,
+    "answer_passed": true,
+    "top_scores": [
+      0.8219,
+      0.7311,
+      0.7287,
+      0.7064
+    ]
+  },
+  {
+    "question": "Is orientation mandatory for all new hires?",
+    "question_original": "Is orientation mandatory for all new hires?",
+    "answer": "Yes. NovaTech Solutions conducts a structured orientation program for all new hires during their first week, covering company history, mission and values, organizational structure, key policies, and an introduction to benefits and tools used across teams. The program includes sessions led by HR, IT, and sometimes senior leadership, along with interactive activities to help new joiners connect with one another. New hires are also assigned a buddy or mentor from their team to help them settle in and answer day-to-day questions during their first month, and orientation materials remain accessible on the internal learning portal for reference anytime.",
+    "ground_truth": "NovaTech Solutions conducts a structured orientation program for all new hires during their first week, covering company history, mission and values, organizational structure, key policies, and an introduction to benefits and tools used across teams. Orientation includes sessions led by HR, IT, and sometimes senior leadership, along with interactive activities to help you connect with fellow new joiners. You'll also be assigned a buddy or mentor from your team to help you settle in and answer day-to-day questions during your first month. Orientation materials, including policy documents and training videos, remain accessible on the internal learning portal for reference anytime.",
+    "hit": true,
+    "answer_sim": 0.9703,
+    "answer_passed": true,
+    "top_scores": [
+      0.7828,
+      0.665,
+      0.6473,
+      0.6406
+    ]
+  },
+  {
+    "question": "Are jeans allowed in the office?",
+    "question_original": "Are jeans allowed in the office?",
+    "answer": "Jeans are generally acceptable as part of the smart-casual dress code for regular working days, but ripped jeans should be avoided. On days with client meetings, presentations, or official events, business formal attire is required, so jeans would not be appropriate then. Fridays are typically casual dress days, though this may vary by team. If you're unsure about appropriate dress for a specific event, check with your manager or HR beforehand.",
+    "ground_truth": "NovaTech Solutions follows a smart-casual dress code for regular working days, meaning collared shirts, blouses, trousers, and clean casual footwear are appropriate; avoid overly casual items like flip-flops, ripped jeans, or graphic tees with inappropriate content. On days with client meetings, presentations, or official events, business formal attire is required. Fridays are typically casual dress days, though this may vary by team. Regardless of the dress code, all attire should be neat, clean, and professional in appearance. If you're unsure about appropriate dress for a specific event, check with your manager or HR beforehand.",
+    "hit": true,
+    "answer_sim": 0.8742,
+    "answer_passed": true,
+    "top_scores": [
+      0.698,
+      0.6175,
+      0.5761,
+      0.5622
+    ]
+  },
+  {
+    "question": "Is notice period buyout approved automatically?",
+    "question_original": "Is notice period buyout approved automatically?",
+    "answer": "No, a notice period buyout is not approved automatically. It requires manager and HR approval. If approved, the shortfall may be adjusted against your final settlement or paid by you.",
+    "ground_truth": "The standard notice period at NovaTech Solutions is 60 days for employees who have completed probation, and 15 days for those still on probation, as specified in your employment agreement. During the notice period, you're expected to continue performing your regular duties, complete handover documentation, and support the transition of your responsibilities. If you wish to leave earlier than your notice period allows, you may request a reduced notice period or buyout option, subject to manager and HR approval, where the shortfall may be adjusted against your final settlement or paid by you. Extensions to the notice period are rare and only considered in exceptional business-critical situations.",
+    "hit": true,
+    "answer_sim": 0.727,
+    "answer_passed": false,
+    "top_scores": [
+      0.7318,
+      0.6393,
+      0.5655,
+      0.5548
+    ]
+  },
+  {
+    "question": "Does the pay period start from the 1st of the month?",
+    "question_original": "Does the pay period start from the 1st of the month?",
+    "answer": "Yes, the pay period runs from the 1st to the last day of the calendar month.",
+    "ground_truth": "NovaTech Solutions follows a monthly salary cycle, with salaries credited to employees' bank accounts on the last working day of each month. The pay period runs from the 1st to the last day of the calendar month. If the scheduled pay date falls on a weekend or public holiday, salaries are disbursed on the preceding working day. Any changes to your bank account details should be updated in the HR/payroll portal at least 5 working days before the pay date to avoid delays. For payroll-related discrepancies, please raise a ticket with the payroll team within 7 days of receiving your payslip.",
+    "hit": true,
+    "answer_sim": 0.7857,
+    "answer_passed": false,
+    "top_scores": [
+      0.7149,
+      0.6323,
+      0.6122,
+      0.6092
+    ]
+  },
+  {
+    "question": "Do personal devices need to be registered for work use?",
+    "question_original": "Do personal devices need to be registered for work use?",
+    "answer": "Yes. Personal devices used for work (BYOD) must be registered and comply with the mobile device management policy.",
+    "ground_truth": "Company-issued laptops and mobile devices are intended primarily for business use and must be used in compliance with NovaTech Solutions's Acceptable Use Policy, which prohibits installing unauthorized software, accessing prohibited websites, or using devices for illegal activities. Limited personal use is permitted as long as it doesn't interfere with work responsibilities or compromise security. All devices must have company-mandated security software, including antivirus and endpoint protection, which IT installs and manages remotely. Lost or stolen devices must be reported to IT immediately for remote wiping to protect company data. Personal devices used for work (BYOD) must be registered and comply with the mobile device management policy.",
+    "hit": true,
+    "answer_sim": 0.8444,
+    "answer_passed": true,
+    "top_scores": [
+      0.836,
+      0.7263,
+      0.6938,
+      0.6904
+    ]
+  },
+  {
+    "question": "How many weeks of maternity leave am I eligible for?",
+    "question_original": "How many weeks of maternity leave am I eligible for?",
+    "answer": "You are eligible for 26 weeks of paid maternity leave for up to two surviving children, and 12 weeks for the third child onward.",
+    "ground_truth": "NovaTech Solutions offers 26 weeks of paid maternity leave in accordance with applicable labor laws, available to female employees for up to two surviving children, and 12 weeks for the third child onward. Leave typically begins up to 8 weeks before the expected delivery date and can be planned with HR and your manager in advance. Employees are encouraged to notify HR at least 60 days before the anticipated leave start date to arrange work handover. The company also supports a flexible return-to-work transition, including options for hybrid arrangements during the first month back. Medical documentation from your healthcare provider is required to process the leave.",
+    "hit": true,
+    "answer_sim": 0.7819,
+    "answer_passed": false,
+    "top_scores": [
+      0.721,
+      0.6827,
+      0.6736,
+      0.6625
+    ]
+  },
+  {
+    "question": "How will I be notified of my new salary?",
+    "question_original": "How will I be notified of my new salary?",
+    "answer": "You'll be notified of your new salary through a formal letter accessible on the HR portal, which includes an updated breakdown of your salary structure. This typically takes effect from April 1st.",
+    "ground_truth": "Salary revisions at NovaTech Solutions are typically processed once a year, in April, following the completion of performance reviews, and are directly linked to your performance rating, market benchmarking, and overall company performance. Increments can range based on rating tiers, with top performers receiving higher raises within the approved budget for that cycle. Off-cycle salary revisions may occur in specific cases, such as promotions, retention concerns, or significant role changes, subject to manager and HR approval. Revised compensation details are communicated through a formal letter accessible on the HR portal, along with an updated breakdown of your salary structure, typically effective from April 1st.",
+    "hit": true,
+    "answer_sim": 0.7726,
+    "answer_passed": false,
+    "top_scores": [
+      0.6105,
+      0.5643,
+      0.5564,
+      0.5559
+    ]
+  },
+  {
+    "question": "What happens after my travel request is approved?",
+    "question_original": "What happens after my travel request is approved?",
+    "answer": "Once your travel request is approved, you'll receive a confirmation to proceed with booking through the corporate travel portal.",
+    "ground_truth": "The travel approval workflow at NovaTech Solutions begins with submitting a travel request form on the portal, including destination, dates, purpose, and estimated cost, which routes automatically to your direct manager for approval. For international travel or trips exceeding INR 1,00,000 in estimated cost, an additional approval from the department head is required. Once approved, you'll receive a confirmation to proceed with booking through the corporate travel portal. Any changes to approved travel plans, such as extended stays or added destinations, require a fresh approval request. Emergency travel approvals can be expedited by directly contacting your manager and the travel desk simultaneously.",
+    "hit": true,
+    "answer_sim": 0.7933,
+    "answer_passed": false,
+    "top_scores": [
+      0.7285,
+      0.6455,
+      0.6407,
+      0.6261
+    ]
+  },
+  {
+    "question": "Does vision coverage include an annual eye exam?",
+    "question_original": "Does vision coverage include an annual eye exam?",
+    "answer": "Yes. Vision benefits cover annual eye check-ups, along with an allowance of up to INR 5,000 per year toward prescription eyeglasses or contact lenses.",
+    "ground_truth": "NovaTech Solutions offers vision benefits as part of the wellness package, covering annual eye check-ups and providing an allowance of up to INR 5,000 per year toward prescription eyeglasses or contact lenses. Employees can claim this benefit by submitting receipts from an optometrist or optical store through the benefits portal, with reimbursement typically processed within 10 business days. Vision correction surgeries like LASIK are not covered under standard vision benefits but may be partially claimable under the health insurance policy depending on medical necessity, subject to insurer approval. Vision coverage applies to the employee only and does not extend to dependents.",
+    "hit": true,
+    "answer_sim": 0.8269,
+    "answer_passed": true,
+    "top_scores": [
+      0.7597,
+      0.6119,
+      0.6091,
+      0.6057
+    ]
+  }
+]
